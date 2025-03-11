@@ -1,0 +1,42 @@
+TradingBPV este o platformă inovatoare de trading, oferind utilizatorilor o gamă variată de opțiuni pentru investiții pe termen scurt și lung, atât în acțiuni, cât și în criptomonede. Aplicația integrează un asistent AI interactiv, care analizează piața în timp real și oferă consultanță personalizată. Pe baza strategiilor utilizatorilor experimentați, AI-ul se adaptează continuu, generând recomandări optimizate pentru decizii de investiție mai inteligente și eficiente.
+
+customers: persoane fizice sau insitutii care utilizeaza platforma pentru a investi in crypto sau actiuni, cu ajutorul ai-ului sau nu.
+liquidity providers: institutii financiare sau platforme partenere care executa tranzactiile si ofera acces la piete
+authentication service: un serviciu prin care se verifica autenticitatea utilizatorului pentru a avea acces la functiile aplicatiei.
+ai service: un sistem ai care analizeaza piata, ofera consultanta personalizata, invata din strategii ale utilizatorilor experimentati si optimizeaza recomandarile.
+banking service(revolut etc.): serviciu auxiliar prin care se furnizeaza bani de la aplicatie si vice-versa.
+financial data providers: surse externe care furnizeaza data in timp real despre preturi, stiri economice si indicatori de piata.
+baza de date
+
+
+principale scenarii de utilizare:
+
+utilizator:
+1.executare tranzactie- utilizatorul poate cumpara/vinde active prin intermediul platformei (Excepții: Fonduri insuficiente, conexiune pierdută)
+2.consultare AI	-utilizatorul solicita ai-ului recomandari cu privire la o posibila tactica de investitie, in concordanta cu interesele personale (Excepții: AI-ul nu poate furniza recomandări din cauza lipsei de date sau a volatilității extreme.)
+3.depunere/retragere- utilizatorul incarca fonduri in cont sau retrage profitul (Excepții: Probleme tehnice ale procesatorului de plăți, verificări suplimentare impuse de bancă.)
+4. verificare market  
+5.login/logout
+
+liquidity providers:
+1.executare ordin tranzactionare- primesc si proceseaza ordinele de cumparare/vanzare din platforma (Excepții: Lipsa lichidității pentru un activ, erori tehnice)
+2.sincronizare preturi- Actualizează prețurile și volumul de lichiditate disponibil în platformă.(Excepții: Conexiune pierdută cu piața, fluctuații extreme care duc la suspendarea ordinelor.)
+
+authentication service
+1.autentificare utilizator-Verifică identitatea utilizatorului pentru acces în platformă (exceptii: Date incorecte, multiple încercări eșuate)
+2.resetare parola- Permite utilizatorului să își reseteze parola în caz de uitare(exceptii: Adresa de email nu este validă, utilizatorul nu poate furniza datele de securitate.)
+3.Verificare conformitate KYC – Validează identitatea utilizatorului conform cerințelor legale (exceptii: documentele furnizate sunt expirate)
+
+ai service : 
+1.Analiza piete si generare recomandari – AI-ul analizeaza tendintele pietei si ofera strategii personalizate.(exceptii : Date insuficiente sau contradictorii)
+2.Învatare din strategiile utilizatorilor – AI-ul isi imbunatateste modelele pe baza comportamentului utilizatorilor experimentați.(exceptii: Date insuficiente pentru antrenare, detectarea unui comportament fraudulos)
+3.Simulare scenarii de investiții – Utilizatorul poate testa o strategie anainte de aplicare(exceptii: piata este prea volatila)
+
+banking service: 
+1.depunere fonduri-utilizatorul adauga bani in contul dedicat aplicatiei(exceptii: fonduri insuficiente)
+2.retragere fonduri-utlizatorul retrage bani catre contul sau bancar(exceptii: limite de retragere depasite)
+3.conversie valuata-utilizatorul schimba moneda pentru a investi in alte active(exceptii: curs nefavorabil)
+
+financial data providers: 
+1.furnizare date in timp real - transmit preturile activelor, stiri economice si indicatori de piata (exceptii: servere indisponibile)
+2.transmitere alerte de piata- notifica platforma cu privire la evenimente majore(scaderi bruste) (exceptii: informatii imprecise)
