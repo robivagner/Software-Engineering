@@ -1,0 +1,38 @@
+```RideBVP este o platformă de ride-sharing care conectează pasagerii cu șoferii în timp real, utilizând GPS și algoritmi inteligenți pentru potrivire și optimizare a rutelor. Aplicația oferă funcționalități precum programarea curselor, carpooling, plăți securizate și comunicare între utilizatori, asigurând o experiență eficientă și sigură pentru toți actorii implicați.
+
+
+actori:
+pasager
+sofer
+sistem plait
+sistem navigatie
+sistem analiza-analizeaza datele despre curse, le stocheaza 
+administrator
+
+Pasager
+Solicitare cursă: Pasagerul introduce locația de preluare și destinația, iar sistemul îi afișează șoferii disponibili și estimarea costului.
+Plata cursei: După finalizarea cursei, pasagerul alege metoda de plată și efectuează tranzacția.
+Rating și feedback: Pasagerul evaluează șoferul și lasă un comentariu despre experiență.
+Programare cursă în avans: Pasagerul selectează o oră viitoare pentru preluare, iar sistemul rezervă un șofer.
+2. Șofer
+Acceptare cerere de cursă: Șoferul primește o notificare despre un pasager în apropiere și decide dacă acceptă cursa.
+Navigație către pasager: Sistemul de navigație îi oferă traseul optim până la punctul de preluare.
+Finalizare cursă și primirea plății: După ce pasagerul ajunge la destinație, plata este procesată automat.
+Rating și feedback: Șoferul evaluează pasagerul și oferă feedback despre comportamentul acestuia.
+3. Sistem de plăți
+Procesare plată pentru o cursă: După finalizarea cursei, sistemul calculează costul și debitează contul pasagerului.
+Transfer câștiguri către șofer: La sfârșitul zilei, sistemul virează câștigurile șoferului, minus comisionul platformei.
+Gestionarea rambursărilor: Dacă pasagerul are o reclamație validă, sistemul poate returna suma parțial sau integral.
+4. Sistem de navigație
+Găsirea celei mai rapide rute: Sistemul calculează traseul optim pentru șofer, ținând cont de trafic.
+Estimarea timpului de sosire: Pe baza datelor GPS, sistemul oferă pasagerului un timp estimat pentru preluare.
+Redirecționare în timp real: Dacă apar blocaje în trafic, sistemul sugerează o rută alternativă.
+5. Sistem de analiză
+Analiză a cererii de curse: Identifică orele și zonele cu cea mai mare cerere de curse.
+Evaluare a performanței șoferilor: Analizează feedback-ul și eficiența fiecărui șofer.
+Detectare anomalii: Identifică curse neobișnuite sau posibile fraude.
+6. Administrator
+Blocare cont utilizator: Dacă un șofer sau pasager încalcă regulile, administratorul îi poate suspenda contul.
+Gestionare reclamații: Admin analizează plângerile și ia măsuri (ex: rambursare, penalizare).
+Optimizare tarifare: Ajustează tarifele în funcție de cerere și ofertă.
+Monitorizare servere: Se asigură că platforma funcționează fără probleme.```
